@@ -5,7 +5,7 @@ void main() {
 
   String? hariInput = stdin.readLineSync();
 
-  switch (hariInput) {
+  switch (hariInput?.toLowerCase()) {
     case "senin":
       print(
         "Senin: Segala sesuatu memiliki kesudahan, yang sudah berakhir biarlah berlalu dan yakinlah semua akan baik-baik saja.",
